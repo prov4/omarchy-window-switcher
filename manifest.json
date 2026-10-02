@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "josip.window-switcher",
+  "name": "Window switcher",
+  "version": "1.0.0",
+  "author": "Josip Povreslo",
+  "description": "Fuzzy-search open Hyprland windows and focus one",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "WindowSwitcher.qml"
+  }
+}
