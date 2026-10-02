@@ -7,7 +7,7 @@ name, and workspace. Type to filter, then press Enter to focus.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/<you>/omarchy-window-switcher.git --enable
+omarchy plugin add https://github.com/prov4/omarchy-window-switcher.git --enable
 ```
 
 Then bind a key in `~/.config/hypr/bindings.lua`, for example Alt+Tab:
