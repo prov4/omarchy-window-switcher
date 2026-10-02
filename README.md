@@ -17,6 +17,16 @@ hl.unbind("ALT + TAB")
 o.bind("ALT + TAB", "Window switcher", "omarchy-shell shell toggle josip.window-switcher")
 ```
 
+## Remove
+
+```bash
+omarchy plugin remove josip.window-switcher
+```
+
+Then delete the keybinding you added to `~/.config/hypr/bindings.lua` (and the
+`hl.unbind` line, to restore Omarchy's default Alt+Tab). The plugin never edits
+your config files itself.
+
 ## Keys
 
 | Key | Action |
@@ -33,7 +43,8 @@ The previously focused window is preselected, so open + Enter jumps back to it.
 
 ## Requirements
 
-Omarchy with the Quickshell-based shell (Quattro) and Hyprland.
+Omarchy with the Quickshell-based shell (Quattro) and Hyprland. No external
+dependencies beyond `hyprctl`, which ships with Hyprland.
 
 ## License
 
